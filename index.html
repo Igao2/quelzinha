@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<head>
+    <title>Quel e Igor</title>
+</head>
+<body>
+    <div class="container">
+       <div class="titulo">Nossas Fotos</div> 
+        <div class="fotos">
+            <div class="carousel-inner">
+                <img src="src/20231014_184118.jpg">
+                <img src="src/20231111_102217.jpg">
+                <img src="src/AirBrush_20220710093944.jpg">
+                <img src="src/20240406_194528.jpg">
+                <img src="src/20240511_210022.jpg">
+                <img src="src/IMG-20220611-WA0044.jpg">
+                <img src="src/IMG-20220702-WA0034.jpg">
+            </div>
+        </div>
+        <div class="otitulo">Nossas Músicas</div>
+        <div class="grid">
+            <img src="src/download (2).jpg" id="musica1" alt="Planos" onclick="playmusic('src/Planos.mp3')">
+            <img src="src/download (1).jpg" alt="Rosas e Rimas" onclick="playmusic('src/Rosas e Rimas.mp3')">
+            <img src="src/Velha Infancia.jpg" alt="Velha Infância" onclick="playmusic('src/Velha Infancia.mp3')">
+            <img src="src/Congratulations.jpg" alt="Congratulations" onclick="playmusic('src/Congratulations.mp3')">
+        </div>
+        <audio class="audio" id="audioPlayer"controls>
+            <source id="audioSource" src="src/Planos.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <div class="mensagem">
+            Eu te amo mais do que consigo imaginar, não existe um só dia em que eu não me sinta feliz de estar com você.
+            Você é a mulher mais linda e incrível desse mundo, parece que a qualquer momento vou acordar desse sonho que é te namorar.
+            Não tem nada dessa vida que me da o contentamento que eu tenho de apenas estar fisicamente na sua presença. 
+            A pessoa mais importante da minha vida é você, grande parte da minha mudança foi porque eu conheci você. Você é minha luz, o meu amor, a minha vida e minha Raquel.
+            Te amo pra sempre.
+            <br><br>
+            Com amor, seu Igor.
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
